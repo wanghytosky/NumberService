@@ -1,3 +1,11 @@
+# Requirement
+Design a microservice which does number block management from a telco perspective.
+1. need to track status of numbers
+2. need to track history of numbers
+3. decouple service and number, anything to do with service delivered to the customer using that number is not needed
+4. microservice must be able to scale horizontally
+5. microservice must supply API to frontend order portal for number selection
+
 # Architecture
 ![Architecture Diagram](https://github.com/wanghytosky/NumberService/blob/master/image/Architecture.jpeg?raw=true)
 
