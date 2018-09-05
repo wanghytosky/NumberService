@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/number/numberInfo")
+@RequestMapping("/number")
 public class NumberInfoController {
 	@RequestMapping(path = "/create", method = RequestMethod.POST)
 	public Object createNumberInfo(){

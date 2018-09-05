@@ -5,7 +5,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/number/customer")
+@RequestMapping("/customer")
 public class CustomerController {
 	@RequestMapping(path = "/get", method = RequestMethod.GET)
 	public Object getCustomer(){

@@ -6,7 +6,7 @@ import org.springframework.web.bind.annotation.RequestMethod;
 import org.springframework.web.bind.annotation.RestController;
 
 @RestController
-@RequestMapping("/number/status")
+@RequestMapping("/status")
 public class StatusControler {
 	
 	@RequestMapping(path = "/get", method = RequestMethod.GET)
