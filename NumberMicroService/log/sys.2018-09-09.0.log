@@ -1,0 +1,9 @@
+2018-09-09 00:00:04,342 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number='{#phone_number}') 
+2018-09-09 00:00:04,358 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer), 2018-10-30(String)
+2018-09-09 00:00:04,360 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2018-09-09 00:00:29,038 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number='{#phone_number}') 
+2018-09-09 00:00:29,041 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer), 2018-10-30(String)
+2018-09-09 00:00:29,043 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2018-09-09 00:01:00,476 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number='{#phone_number}') 
+2018-09-09 00:01:00,477 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Integer), 2018-10-31(String)
+2018-09-09 00:01:00,479 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0

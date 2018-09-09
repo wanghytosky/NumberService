@@ -1,0 +1,12 @@
+2018-09-08 17:09:22,520 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 17:09:22,523 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 0(Integer), null, null
+2018-09-08 17:09:22,527 ERROR (GlobalExceptionHandler.java:25)- lalalalal
+2018-09-08 17:09:22,682 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 17:09:22,683 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 0(Integer), null, null
+2018-09-08 17:09:22,685 ERROR (GlobalExceptionHandler.java:25)- lalalalal
+2018-09-08 17:09:22,847 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 17:09:22,849 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 0(Integer), null, null
+2018-09-08 17:09:22,851 ERROR (GlobalExceptionHandler.java:25)- lalalalal
+2018-09-08 17:09:23,049 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 17:09:23,050 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 0(Integer), null, null
+2018-09-08 17:09:23,052 ERROR (GlobalExceptionHandler.java:25)- lalalalal

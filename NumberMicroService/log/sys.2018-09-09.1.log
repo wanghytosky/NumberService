@@ -1,0 +1,9 @@
+2018-09-09 00:02:45,728 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number='{#phone_number}') 
+2018-09-09 00:02:45,729 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Integer), 2018-10-31(String)
+2018-09-09 00:02:45,731 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2018-09-09 00:02:59,273 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number='{#phone_number}') 
+2018-09-09 00:02:59,274 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2(Integer), 2018-10-01(String)
+2018-09-09 00:02:59,276 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 0
+2018-09-09 00:03:22,964 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 16887 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 00:03:22,969 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 00:03:22,971 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

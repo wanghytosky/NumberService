@@ -1,0 +1,7 @@
+2018-09-08 20:32:13,244 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 4.092 seconds (JVM running for 4.83)
+2018-09-08 20:32:23,875 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 20:32:23,889 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 82964867(String), 0(Integer), 0(Integer), null, 2018-09-08(String)
+2018-09-08 20:34:34,485 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 13955 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 20:34:34,490 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 20:34:34,491 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-08 20:34:38,119 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.952 seconds (JVM running for 4.45)

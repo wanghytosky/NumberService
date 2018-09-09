@@ -1,0 +1,8 @@
+2018-09-08 23:03:34,757 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.886 seconds (JVM running for 4.471)
+2018-09-08 23:06:35,042 ERROR (GlobalExceptionHandler.java:27)- Required String parameter 'phoneNumber' is not present
+2018-09-08 23:06:59,013 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT num_id,phone_number,cus_id,status_id,expired_time,create_time FROM NumberInfo WHERE phone_number=? 
+2018-09-08 23:06:59,286 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 82964866(String)
+2018-09-08 23:06:59,490 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-08 23:08:58,961 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 16161 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 23:08:58,966 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 23:08:58,967 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

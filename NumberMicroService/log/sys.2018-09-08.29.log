@@ -1,0 +1,11 @@
+2018-09-08 23:57:16,955 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3(Integer), 2018-10-30(String)
+2018-09-08 23:57:16,958 ERROR (GlobalExceptionHandler.java:27)- 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+### The error may involve com.number.dao.NumberInfoMapper.updateMemberInfo-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number={#phone_number})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+2018-09-08 23:59:36,224 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 16839 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 23:59:36,229 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 23:59:36,230 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

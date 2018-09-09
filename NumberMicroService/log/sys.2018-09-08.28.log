@@ -1,0 +1,8 @@
+2018-09-08 23:55:14,363 ERROR (GlobalExceptionHandler.java:27)- 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+### The error may involve com.number.dao.NumberInfoMapper.updateMemberInfo-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number={#phone_number})
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: You have an error in your SQL syntax; check the manual that corresponds to your MySQL server version for the right syntax to use near '' at line 3
+2018-09-08 23:57:16,954 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_number={#phone_number}) 

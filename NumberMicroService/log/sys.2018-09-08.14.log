@@ -1,0 +1,8 @@
+2018-09-08 20:34:42,504 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 20:34:42,524 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 82964867(String), 0(Integer), 0(Integer), null, 2018-09-08(String)
+2018-09-08 20:34:42,632 ERROR (GlobalExceptionHandler.java:25)- lalalalal
+2018-09-08 20:34:59,597 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 20:34:59,598 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 82964869(String), 0(Integer), 0(Integer), null, 2018-09-08(String)
+2018-09-08 20:36:34,959 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 13983 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 20:36:34,964 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 20:36:34,966 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

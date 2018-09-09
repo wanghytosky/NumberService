@@ -1,0 +1,17 @@
+2018-09-08 23:43:37,485 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.889 seconds (JVM running for 4.457)
+2018-09-08 23:44:57,371 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 16650 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 23:44:57,375 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 23:44:57,377 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-08 23:45:00,939 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.881 seconds (JVM running for 4.352)
+2018-09-08 23:45:07,357 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_unmber='{#phone_number}') 
+2018-09-08 23:45:07,372 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer), 2018-10-01(String)
+2018-09-08 23:45:07,437 ERROR (GlobalExceptionHandler.java:27)- 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'phone_unmber' in 'where clause'
+### The error may involve com.number.dao.NumberInfoMapper.updateMemberInfo-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE numberInfo SET status_id=?, expired_time=? WHERE (phone_unmber='{#phone_number}')
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'phone_unmber' in 'where clause'
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Unknown column 'phone_unmber' in 'where clause'
+2018-09-08 23:45:40,239 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 16662 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 23:45:40,243 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 23:45:40,245 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

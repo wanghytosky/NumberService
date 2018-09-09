@@ -1,0 +1,9 @@
+2018-09-08 20:24:51,635 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.934 seconds (JVM running for 4.566)
+2018-09-08 20:26:18,344 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 13828 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 20:26:18,348 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 20:26:18,349 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-08 20:26:21,812 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.775 seconds (JVM running for 4.343)
+2018-09-08 20:26:42,645 ERROR (GlobalExceptionHandler.java:25)- lalalalal
+2018-09-08 20:28:17,333 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 13856 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-08 20:28:17,337 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-08 20:28:17,339 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

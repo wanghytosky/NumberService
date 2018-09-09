@@ -1,0 +1,8 @@
+2018-09-08 17:12:52,756 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 4.244 seconds (JVM running for 4.9)
+2018-09-08 17:13:07,622 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 17:13:07,636 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 0(Integer), null, null
+2018-09-08 17:13:07,707 ERROR (GlobalExceptionHandler.java:25)- lalalalal
+2018-09-08 17:13:12,996 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
+2018-09-08 17:13:12,997 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: null, 0(Integer), 0(Integer), null, null
+2018-09-08 17:13:12,999 ERROR (GlobalExceptionHandler.java:25)- lalalalal
+2018-09-08 17:13:15,541 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into NumberInfo(phone_number,cus_id,status_id,expired_time,create_time) values (?,?,?,?,?) 
