@@ -1,0 +1,8 @@
+2018-09-09 14:18:27,239 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.793 seconds (JVM running for 4.48)
+2018-09-09 14:18:31,065 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET expired_time=?, service_id=? WHERE (phone_number=?) 
+2018-09-09 14:18:31,078 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2020-10-01(String), 1(Integer), 82964866(String)
+2018-09-09 14:18:31,080 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-09 14:18:31,082 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT num_id,phone_number,cus_id,status_id,service_id,expired_time,create_time FROM NumberInfo WHERE phone_number=? or num_id=? 
+2018-09-09 14:18:31,083 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 82964866(String), 0(Integer)
+2018-09-09 14:18:31,095 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 1
+2018-09-09 14:18:31,097 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into History(history_id,service_id,num_id,cus_id,status_id,create_time) values (?,?,?,?,?,?) 

@@ -1,0 +1,6 @@
+2018-09-09 11:29:16,806 ERROR (GlobalExceptionHandler.java:27)- nested exception is org.apache.ibatis.builder.BuilderException: Error invoking SqlProvider method (com.number.dao.HistoryMapper$HistorySqlBuilder.buildSeatchHistoriesSql). Cannot invoke a method that holds named argument(@Param) using a specifying parameterObject. In this case, please specify a 'java.util.Map' object.
+2018-09-09 11:32:37,622 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 20060 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 11:32:37,626 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 11:32:37,628 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-09 11:32:41,202 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.889 seconds (JVM running for 4.514)
+2018-09-09 11:32:53,388 ERROR (GlobalExceptionHandler.java:27)- nested exception is org.apache.ibatis.builder.BuilderException: Error invoking SqlProvider method (com.number.dao.HistoryMapper$HistorySqlBuilder.buildSeatchHistoriesSql). Cannot invoke a method that holds named argument(@Param) using a specifying parameterObject. In this case, please specify a 'java.util.Map' object.

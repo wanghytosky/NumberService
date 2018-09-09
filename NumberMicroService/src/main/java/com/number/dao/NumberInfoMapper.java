@@ -4,6 +4,7 @@ import org.apache.commons.lang3.StringUtils;
 import org.apache.ibatis.annotations.Insert;
 import org.apache.ibatis.annotations.Mapper;
 import org.apache.ibatis.annotations.Options;
+import org.apache.ibatis.annotations.Param;
 import org.apache.ibatis.annotations.Select;
 import org.apache.ibatis.annotations.UpdateProvider;
 import org.apache.ibatis.jdbc.SQL;
@@ -18,8 +19,8 @@ public interface NumberInfoMapper {
 	@Options(useGeneratedKeys=true, keyProperty = "num_id", keyColumn = "num_id")
 	public void createNumberInfo(NumberInfoEntity numberInfo);
 	
-	@Select(value = "SELECT num_id,phone_number,cus_id,status_id,service_id,expired_time,create_time FROM NumberInfo WHERE phone_number=#{phoneNumber}")
-	public NumberInfoEntity getNumberInfoByPhoneNumber(String phoneNumber);
+	@Select(value = "SELECT num_id,phone_number,cus_id,status_id,service_id,expired_time,create_time FROM NumberInfo WHERE phone_number=#{phone_number} or num_id=#{num_id}")
+	public NumberInfoEntity getNumberInfo(@Param("phone_number") String phone_number,@Param("num_id") int num_id);
 	
 	@UpdateProvider(type = MemberInfoSqlBuilder.class, method = "buildUpdateNumberInfoSql")
 	public int updateMemberInfo(NumberInfoEntity numberInfo);

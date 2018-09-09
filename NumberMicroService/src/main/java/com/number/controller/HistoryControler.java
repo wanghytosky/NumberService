@@ -18,7 +18,7 @@ public class HistoryControler {
 	private IHistoryService historyService;
 	
 	@RequestMapping(path = "/search/{num_id}", method = RequestMethod.GET)
-	public BaseEntity seatchHistories(@PathVariable(value = "num_id") int num_id){
+	public BaseEntity seatchHistories(@PathVariable("num_id") int num_id){
 		return historyService.searchHistories(num_id);
 	}
 }

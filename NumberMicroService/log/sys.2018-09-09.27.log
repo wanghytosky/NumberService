@@ -1,0 +1,16 @@
+2018-09-09 14:00:43,320 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.774 seconds (JVM running for 4.432)
+2018-09-09 14:00:51,185 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET expired_time=?, service_id=? WHERE (phone_number=?) 
+2018-09-09 14:00:51,198 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2020-10-01(String), 1(Integer), 82964866(String)
+2018-09-09 14:00:51,200 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-09 14:00:51,201 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into History(history_id,service_id,num_id,cus_id,status_id,create_time) values (?,?,?,?,?,?) 
+2018-09-09 14:00:51,202 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 3d5c2bdf-2102-409d-91cc-0fbf47e379d4(String), 1(Integer), 0(Integer), 0(Integer), 0(Integer), 2018-09-09 14:00:51(String)
+2018-09-09 14:00:51,267 ERROR (GlobalExceptionHandler.java:27)- 
+### Error updating database.  Cause: java.sql.SQLException: Data truncated for column 'history_id' at row 1
+### The error may involve com.number.dao.HistoryMapper.insertHistory-Inline
+### The error occurred while setting parameters
+### SQL: insert into History(history_id,service_id,num_id,cus_id,status_id,create_time) values (?,?,?,?,?,?)
+### Cause: java.sql.SQLException: Data truncated for column 'history_id' at row 1
+; ]; Data truncated for column 'history_id' at row 1; nested exception is java.sql.SQLException: Data truncated for column 'history_id' at row 1
+2018-09-09 14:01:41,124 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 1248 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 14:01:41,129 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 14:01:41,130 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

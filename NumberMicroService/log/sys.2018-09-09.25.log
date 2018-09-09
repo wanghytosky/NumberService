@@ -1,0 +1,12 @@
+2018-09-09 13:55:36,545 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into History(service_id,num_id,cus_id,status_id,create_time) values (?,?,?,?,?) 
+2018-09-09 13:55:36,548 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 1(Integer), 0(Integer), 0(Integer), 0(Integer), 2018-09-09 13:55:36(String)
+2018-09-09 13:55:36,626 ERROR (GlobalExceptionHandler.java:27)- 
+### Error updating database.  Cause: java.sql.SQLException: Field 'history_id' doesn't have a default value
+### The error may involve com.number.dao.HistoryMapper.insertHistory-Inline
+### The error occurred while setting parameters
+### SQL: insert into History(service_id,num_id,cus_id,status_id,create_time) values (?,?,?,?,?)
+### Cause: java.sql.SQLException: Field 'history_id' doesn't have a default value
+; ]; Field 'history_id' doesn't have a default value; nested exception is java.sql.SQLException: Field 'history_id' doesn't have a default value
+2018-09-09 13:59:39,685 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 1233 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 13:59:39,690 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 13:59:39,691 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

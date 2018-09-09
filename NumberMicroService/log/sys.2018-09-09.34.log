@@ -1,0 +1,10 @@
+2018-09-09 14:18:31,098 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 0(Integer), 1(Integer), 3(Integer), 1(Integer), 2(Integer), 2018-09-09 14:18:31(String)
+2018-09-09 14:18:31,100 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-09 16:04:11,459 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 1993 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 16:04:11,464 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 16:04:11,465 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-09 16:04:14,951 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.787 seconds (JVM running for 4.552)
+2018-09-09 16:04:52,731 ERROR (GlobalExceptionHandler.java:27)- Optional int parameter 'num_id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+2018-09-09 16:06:40,869 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 2022 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 16:06:40,873 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 16:06:40,875 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

@@ -9,7 +9,6 @@ import org.springframework.web.bind.annotation.RestController;
 import com.number.entity.BaseEntity;
 import com.number.entity.CustomerEntity;
 import com.number.service.ICustomerService;
-import com.number.service.INumberInfoService;
 
 @RestController
 @RequestMapping("/customer")
@@ -22,11 +21,10 @@ public class CustomerController {
 	@RequestMapping(path = "/update", method = RequestMethod.POST)
 	public BaseEntity updateCustomer(CustomerEntity cusEntity){
 		customerService.updateCustomer(cusEntity);
-		cusEntity.success();
 		return cusEntity;
 	}
 	
-	@RequestMapping(path = "/add", method = RequestMethod.POST)
+	@RequestMapping(path = "/create", method = RequestMethod.POST)
 	@ResponseBody
 	public BaseEntity addCustomer(CustomerEntity cusEntity){
 		if(customerService.createCustomer(cusEntity)){

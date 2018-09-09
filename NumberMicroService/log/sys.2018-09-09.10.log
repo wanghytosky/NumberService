@@ -1,0 +1,13 @@
+2018-09-09 11:18:28,809 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.855 seconds (JVM running for 4.485)
+2018-09-09 11:18:42,104 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: INSERT INTO CustomerInfo(cus_name,passport_number,passport_expiredTime) VALUES () 
+2018-09-09 11:18:42,118 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-09-09 11:18:42,190 ERROR (GlobalExceptionHandler.java:27)- 
+### Error updating database.  Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+### The error may involve com.number.dao.CustomerMapper.createCustomer-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO CustomerInfo(cus_name,passport_number,passport_expiredTime) VALUES ()
+### Cause: java.sql.SQLException: Column count doesn't match value count at row 1
+; bad SQL grammar []; nested exception is java.sql.SQLException: Column count doesn't match value count at row 1
+2018-09-09 11:20:21,855 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 19881 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 11:20:21,860 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 11:20:21,861 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

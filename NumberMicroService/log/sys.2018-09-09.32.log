@@ -1,0 +1,8 @@
+2018-09-09 14:14:53,687 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.705 seconds (JVM running for 4.172)
+2018-09-09 14:14:56,717 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET expired_time=?, service_id=? WHERE (phone_number=?) 
+2018-09-09 14:14:56,730 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2020-10-01(String), 1(Integer), 82964866(String)
+2018-09-09 14:14:56,732 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-09 14:14:56,740 ERROR (GlobalExceptionHandler.java:27)- nested exception is org.apache.ibatis.binding.BindingException: Parameter 'phone_number' not found. Available parameters are [arg1, arg0, param1, param2]
+2018-09-09 14:18:23,737 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 1375 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 14:18:23,741 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 14:18:23,743 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

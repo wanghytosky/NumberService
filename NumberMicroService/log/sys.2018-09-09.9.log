@@ -1,0 +1,10 @@
+2018-09-09 11:11:11,520 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.925 seconds (JVM running for 4.401)
+2018-09-09 11:12:20,813 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE CustomerInfo SET cus_name=?, passport_number=? WHERE (cus_id=?) 
+2018-09-09 11:12:20,828 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: Wang Hanyang(String), E22480557(String), 1(Integer)
+2018-09-09 11:12:20,918 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-09 11:13:48,131 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE CustomerInfo SET cus_name=?, passport_number=? WHERE (cus_id=?) 
+2018-09-09 11:13:48,133 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: Wanghy(String), E22480559(String), 1(Integer)
+2018-09-09 11:13:48,212 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-09 11:18:25,263 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 19856 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 11:18:25,267 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 11:18:25,269 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

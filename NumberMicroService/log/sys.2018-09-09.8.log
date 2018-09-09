@@ -1,0 +1,13 @@
+2018-09-09 11:10:17,142 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.879 seconds (JVM running for 4.402)
+2018-09-09 11:10:26,412 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE customer SET cus_name=?, passport_number=? WHERE (cus_id=?) 
+2018-09-09 11:10:26,426 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: Wang Hanyang(String), E22480557(String), 1(Integer)
+2018-09-09 11:10:26,494 ERROR (GlobalExceptionHandler.java:27)- 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'numberservice.customer' doesn't exist
+### The error may involve com.number.dao.CustomerMapper.updateCustomer-Inline
+### The error occurred while setting parameters
+### SQL: UPDATE customer SET cus_name=?, passport_number=? WHERE (cus_id=?)
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'numberservice.customer' doesn't exist
+; bad SQL grammar []; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLSyntaxErrorException: Table 'numberservice.customer' doesn't exist
+2018-09-09 11:11:07,908 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 19765 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 11:11:07,912 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 11:11:07,913 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

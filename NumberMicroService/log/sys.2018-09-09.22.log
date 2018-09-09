@@ -1,0 +1,7 @@
+2018-09-09 12:04:02,991 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.904 seconds (JVM running for 4.39)
+2018-09-09 12:04:17,026 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: SELECT h.create_time, n.phone_number, c.cus_name, c.passport_number, c.passport_expiredTime, s.service_name, ns.status_name FROM History as h INNER JOIN NumberInfo n ON n.num_id=h.num_id INNER JOIN CustomerInfo c ON c.cus_id=h.cus_id INNER JOIN Service s ON s.service_id=h.service_id INNER JOIN NumberStatus ns ON ns.status_id=h.status_id WHERE (h.num_id=3) 
+2018-09-09 12:04:17,039 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 
+2018-09-09 12:04:17,050 DEBUG (BaseJdbcLogger.java:159)- <==      Total: 2
+2018-09-09 13:29:28,426 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 21654 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 13:29:28,431 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 13:29:28,433 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

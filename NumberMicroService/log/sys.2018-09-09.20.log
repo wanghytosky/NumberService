@@ -1,0 +1,6 @@
+2018-09-09 11:56:58,159 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.891 seconds (JVM running for 4.375)
+2018-09-09 11:57:13,793 ERROR (GlobalExceptionHandler.java:27)- nested exception is org.apache.ibatis.builder.BuilderException: Error invoking SqlProvider method (com.number.dao.HistoryMapper$HistorySqlBuilder.buildSeatchHistoriesSql). Cannot invoke a method that holds named argument(@Param) using a specifying parameterObject. In this case, please specify a 'java.util.Map' object.
+2018-09-09 12:02:39,161 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 20487 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 12:02:39,169 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 12:02:39,171 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-09 12:02:42,743 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.894 seconds (JVM running for 4.542)

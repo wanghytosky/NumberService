@@ -7,7 +7,7 @@ public interface INumberInfoService {
 	
 	boolean createNumber(NumberInfoEntity numberInfo);
 	
-	NumberInfoEntity searchNumberInfoByPhoneNumber(String phoneNumber);
+	NumberInfoEntity searchNumberInfo(String phoneNumber, int num_id);
 
 	boolean updateNumberInfo(NumberInfoEntity numberInfo);
 }

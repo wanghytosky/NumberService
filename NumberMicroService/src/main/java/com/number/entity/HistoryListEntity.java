@@ -6,13 +6,13 @@ import java.util.List;
 public class HistoryListEntity extends BaseEntity implements Serializable{
 	private static final long serialVersionUID = 1L;
 	
-	private List<HistoryEntity> histories;
+	private List<HistorySearchEntity> histories;
 
-	public List<HistoryEntity> getHistories() {
+	public List<HistorySearchEntity> getHistories() {
 		return histories;
 	}
 
-	public void setHistories(List<HistoryEntity> histories) {
+	public void setHistories(List<HistorySearchEntity> histories) {
 		this.histories = histories;
 	}
 	

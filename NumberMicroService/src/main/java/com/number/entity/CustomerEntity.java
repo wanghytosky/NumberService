@@ -14,7 +14,7 @@ public class CustomerEntity extends BaseEntity implements Serializable{
 	
 	private int cus_id;
 	
-	private int cus_name;
+	private String cus_name;
 	
 	private String passport_number;
 	
@@ -28,11 +28,11 @@ public class CustomerEntity extends BaseEntity implements Serializable{
 		this.cus_id = cus_id;
 	}
 
-	public int getCus_name() {
+	public String getCus_name() {
 		return cus_name;
 	}
 
-	public void setCus_name(int cus_name) {
+	public void setCus_name(String cus_name) {
 		this.cus_name = cus_name;
 	}
 

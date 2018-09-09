@@ -1,0 +1,7 @@
+2018-09-09 11:26:48,832 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 4.24 seconds (JVM running for 4.94)
+2018-09-09 11:26:52,072 ERROR (GlobalExceptionHandler.java:27)- Optional int parameter 'num_id' is present but cannot be translated into a null value due to being declared as a primitive type. Consider declaring it as object wrapper for the corresponding primitive type.
+2018-09-09 11:28:15,928 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 19997 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 11:28:15,933 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 11:28:15,934 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default
+2018-09-09 11:28:19,652 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 4.043 seconds (JVM running for 4.614)
+2018-09-09 11:28:23,500 ERROR (GlobalExceptionHandler.java:27)- nested exception is org.apache.ibatis.builder.BuilderException: Error invoking SqlProvider method (com.number.dao.HistoryMapper$HistorySqlBuilder.buildSeatchHistoriesSql). Cannot invoke a method that holds named argument(@Param) using a specifying parameterObject. In this case, please specify a 'java.util.Map' object.

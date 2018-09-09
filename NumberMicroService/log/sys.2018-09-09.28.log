@@ -1,0 +1,9 @@
+2018-09-09 14:01:44,631 INFO (StartupInfoLogger.java:59)- Started NumberMicroServiceApplication in 3.809 seconds (JVM running for 4.279)
+2018-09-09 14:01:47,052 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: UPDATE numberInfo SET expired_time=?, service_id=? WHERE (phone_number=?) 
+2018-09-09 14:01:47,066 DEBUG (BaseJdbcLogger.java:159)- ==> Parameters: 2020-10-01(String), 1(Integer), 82964866(String)
+2018-09-09 14:01:47,068 DEBUG (BaseJdbcLogger.java:159)- <==    Updates: 1
+2018-09-09 14:01:47,069 DEBUG (BaseJdbcLogger.java:159)- ==>  Preparing: insert into History(history_id,service_id,num_id,cus_id,status_id,create_time) values ('?',?,?,?,?,?) 
+2018-09-09 14:01:47,100 ERROR (GlobalExceptionHandler.java:27)- nested exception is org.apache.ibatis.type.TypeException: Could not set parameters for mapping: ParameterMapping{property='create_time', mode=IN, javaType=class java.lang.String, jdbcType=null, numericScale=null, resultMapId='null', jdbcTypeName='null', expression='null'}. Cause: org.apache.ibatis.type.TypeException: Error setting non null for parameter #6 with JdbcType null . Try setting a different JdbcType for this parameter or a different configuration property. Cause: java.sql.SQLException: Parameter index out of range (6 > number of parameters, which is 5).
+2018-09-09 14:03:44,664 INFO (StartupInfoLogger.java:50)- Starting NumberMicroServiceApplication on vnc1020471.local with PID 1262 (started by wanghy1 in /Users/wanghy1/储藏室/Code/eclipse_workspace/NumberMicroService)
+2018-09-09 14:03:44,668 DEBUG (StartupInfoLogger.java:53)- Running with Spring Boot v2.0.4.RELEASE, Spring v5.0.8.RELEASE
+2018-09-09 14:03:44,670 INFO (SpringApplication.java:662)- No active profile set, falling back to default profiles: default

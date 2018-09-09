@@ -11,7 +11,7 @@ import com.number.entity.CustomerEntity;
 
 @Mapper
 public interface CustomerMapper {
-	@Insert(value = "INSERT INTO CustomerInfo(cus_name,passport_number,passport_expiredTime) VALUES ()")
+	@Insert(value = "INSERT INTO CustomerInfo(cus_name,passport_number,passport_expiredTime) VALUES (#{cus_name},#{passport_number},#{passport_expiredTime})")
 	@Options(useGeneratedKeys=true, keyProperty = "cus_id", keyColumn = "cus_id")
 	public void createCustomer(CustomerEntity cusEntity);
 	
@@ -22,7 +22,7 @@ public interface CustomerMapper {
 	    public static String buildUpdateCustomerSql(CustomerEntity cusEntity) {
 	    	SQL sql = new SQL() {
 	            {
-	               UPDATE("customer");
+	               UPDATE("CustomerInfo");
 	               if(cusEntity.getCus_id() > 0){
 	            	   SET("cus_name=#{cus_name}");
 	               }
