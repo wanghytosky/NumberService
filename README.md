@@ -32,7 +32,7 @@ Based pubsub pattern (publish-subscribe pattern) and types of list data, impleme
 Catching the history information by Solr maximizes the efficiency of query to status/histories. Index is updated hourly. 
 
 # DataBase Design
-![Architecture Diagram](https://github.com/wanghytosky/NumberService/blob/master/image/database.png?raw=true)
+![Architecture Diagram](https://github.com/wanghytosky/NumberService/blob/master/image/database.jpg?raw=true)
 
 # Database overview
 * **customer table**: maintains customer information.</br>
