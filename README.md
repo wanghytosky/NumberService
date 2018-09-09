@@ -66,7 +66,9 @@ Catching the history information by Solr maximizes the efficiency of query to st
 	&#8195;&#8195;&#8195;description (varchar)&#8195;: describe the details of the service.</br>
 
 # Restful API Documentation
-Run the microservice and enter "http://localhost:8080/swagger-ui.htm" on your browser.You will see more details of the documentation.
+Run the microservice and enter "http://localhost:8080/swagger-ui.htm" on your browser.</br>
+You will see more details of the documentation.</br>
+api-docs.json : https://raw.githubusercontent.com/wanghytosky/NumberService/master/api-doc/api-docs.json
 ![Architecture Diagram](https://github.com/wanghytosky/NumberService/blob/master/image/api.jpeg?raw=true)
 
 # Code Structure
