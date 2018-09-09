@@ -61,3 +61,8 @@ Catching the history information by Solr maximizes the efficiency of query to st
 	&#8195;&#8195;&#8195;service_type (tinyint)&#8195;: 0->Prepaid 1->contact .</br>
 	&#8195;&#8195;&#8195;description (varchar)&#8195;: describe the details of the service.</br>
 	&#8195;&#8195;&#8195;expired_date(datetime)&#8195;: The service cannot be used after the date.</br>
+
+# Restful API Documentation
+Run the microservice and enter "http://localhost:8080/swagger-ui.htm" on your browser.You will see more details of the documentation.
+![Architecture Diagram](https://github.com/wanghytosky/NumberService/blob/master/image/api.jpeg?raw=true)
+	
