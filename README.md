@@ -89,4 +89,4 @@ https://github.com/wanghytosky/NumberService/blob/master/NumberMicroService/src/
 
 # About Optimizaion
 The mini project is implemented by some basic technologies.It can be better in performance.</br>
-Such as the things in Architecture image.&#8195;e.g:solr, redis...
+Such as the things in Architecture, e.g:solr, redis, etc.
