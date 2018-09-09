@@ -84,3 +84,7 @@ Run the microservice and enter "http://localhost:8080/swagger-ui.htm" on your br
 https://github.com/wanghytosky/NumberService/blob/master/mysql_databse/numbermicroservice_db_dump.sql</br></br>
 * **Configuration File**:</br>
 https://github.com/wanghytosky/NumberService/blob/master/NumberMicroService/src/main/resources/application.properties
+
+# About Optimizaion
+The mini project is implemented by some basic technology.It can be better in performance.</br>
+Such as the things in Architecture image.e.g:solr, redis...
