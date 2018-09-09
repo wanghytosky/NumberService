@@ -1,15 +1,16 @@
 package com.number.entity;
 
+import io.swagger.annotations.ApiParam;
 
 public class BaseEntity {
 	
+	@ApiParam(value = "The specific detail of the exception.")
 	private String errorMsg;
 	
-	/**
-	 * errorCode : -2->CustomException,-1->SystemException, 0->success
-	 */
+	@ApiParam(value = "errorCode : -2->CustomException,-1->SystemException, 0->success.")
 	private int errorCode;
 	
+	@ApiParam(value = "success:true, failed:false")
 	private boolean isSuccess;
 
 	public BaseEntity(){}

@@ -2,6 +2,7 @@ package com.number.entity;
 
 import java.io.Serializable;
 
+import io.swagger.annotations.ApiParam;
 
 /**
  * Entity for numberinfo table
@@ -12,18 +13,25 @@ public class NumberInfoEntity extends BaseEntity implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
+	@ApiParam(value = "primary key, id of each number.")
 	private int num_id;
 	
+	@ApiParam(value = "phone number.")
 	private String phone_number;
 	
+	@ApiParam(value = "foreign key to customer table.")
 	private int cus_id;
 	
+	@ApiParam(value = "0: available 1: in use; 2: pause; 3: disabled")
 	private int status_id;
 	
+	@ApiParam(value = "0->Prepaid 1->contact .")
 	private int service_id;
 	
+	@ApiParam(value = "the number usage state.")
 	private String create_time;
 	
+	@ApiParam(value = "The expire date of the number.")
 	private String expired_time;
 
 	public int getNum_id() {

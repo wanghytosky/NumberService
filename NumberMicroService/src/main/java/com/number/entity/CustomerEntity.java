@@ -2,6 +2,7 @@ package com.number.entity;
 
 import java.io.Serializable;
 
+import io.swagger.annotations.ApiParam;
 
 /**
  * Entity for customerinfo table
@@ -12,12 +13,16 @@ public class CustomerEntity extends BaseEntity implements Serializable{
 	
 	private static final long serialVersionUID = 1L;
 	
+	@ApiParam(value = "primary key, id of each customer.")
 	private int cus_id;
 	
+	@ApiParam(value = "name of each customer.")
 	private String cus_name;
 	
+	@ApiParam(value = "passport number of the customer")
 	private String passport_number;
 	
+	@ApiParam(value = "the expired time of the customer's passport")
 	private String passport_expiredTime;
 
 	public int getCus_id() {

@@ -20,7 +20,7 @@ public interface NumberInfoMapper {
 	public void createNumberInfo(NumberInfoEntity numberInfo);
 	
 	@Select(value = "SELECT num_id,phone_number,cus_id,status_id,service_id,expired_time,create_time FROM NumberInfo WHERE phone_number=#{phone_number} or num_id=#{num_id}")
-	public NumberInfoEntity getNumberInfo(@Param("phone_number") String phone_number,@Param("num_id") int num_id);
+	public NumberInfoEntity getNumberInfo(@Param("phone_number") String phone_number,@Param("num_id") Integer num_id);
 	
 	@UpdateProvider(type = MemberInfoSqlBuilder.class, method = "buildUpdateNumberInfoSql")
 	public int updateMemberInfo(NumberInfoEntity numberInfo);

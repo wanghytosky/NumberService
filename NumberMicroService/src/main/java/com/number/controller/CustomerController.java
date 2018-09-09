@@ -10,6 +10,10 @@ import com.number.entity.BaseEntity;
 import com.number.entity.CustomerEntity;
 import com.number.service.ICustomerService;
 
+import io.swagger.annotations.Api;
+import io.swagger.annotations.ApiOperation;
+
+@Api(value="/customer", tags="customer information module")
 @RestController
 @RequestMapping("/customer")
 public class CustomerController {
@@ -18,12 +22,15 @@ public class CustomerController {
 	private ICustomerService customerService;
 	
 	
+	@ApiOperation(value="update customer information by customerID", notes = "update customer information by customerID")
 	@RequestMapping(path = "/update", method = RequestMethod.POST)
+	@ResponseBody
 	public BaseEntity updateCustomer(CustomerEntity cusEntity){
 		customerService.updateCustomer(cusEntity);
 		return cusEntity;
 	}
 	
+	@ApiOperation(value="create a new customer record", notes = "create a new customer record")
 	@RequestMapping(path = "/create", method = RequestMethod.POST)
 	@ResponseBody
 	public BaseEntity addCustomer(CustomerEntity cusEntity){

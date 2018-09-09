@@ -37,9 +37,9 @@ public class NumberInfoServiceImpl implements INumberInfoService {
 	}
 
 	@Override
-	public NumberInfoEntity searchNumberInfo(String phoneNumber, int num_id) {
+	public NumberInfoEntity searchNumberInfo(String phoneNumber, Integer num_id) {
 		NumberInfoEntity numInfoEntity = new NumberInfoEntity();
-		if((StringUtils.isNotEmpty(phoneNumber) && Validator.isMobile(phoneNumber)) || num_id > 0){
+		if((StringUtils.isNotEmpty(phoneNumber) && Validator.isMobile(phoneNumber)) || (num_id !=null && num_id > 0)){
 		    numInfoEntity= numberInfoMapper.getNumberInfo(phoneNumber,num_id);
 			if(numInfoEntity.getNum_id() > 0){
 				numInfoEntity.success();
