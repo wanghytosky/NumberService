@@ -81,6 +81,6 @@ Run the microservice and enter "http://localhost:8080/swagger-ui.htm" on your br
 &#8195;&#8195;&#8195;entity: Model Class</br>
 # Database Dump File & Configuration
 * **Dump File**:</br>
-https://github.com/wanghytosky/NumberService/blob/master/mysql_databse/numbermicroservice_db_dump.sql</br>
+https://github.com/wanghytosky/NumberService/blob/master/mysql_databse/numbermicroservice_db_dump.sql</br></br>
 * **Configuration File**:</br>
 https://github.com/wanghytosky/NumberService/blob/master/NumberMicroService/src/main/resources/application.properties
