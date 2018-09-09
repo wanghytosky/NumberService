@@ -86,5 +86,5 @@ https://github.com/wanghytosky/NumberService/blob/master/mysql_databse/numbermic
 https://github.com/wanghytosky/NumberService/blob/master/NumberMicroService/src/main/resources/application.properties
 
 # About Optimizaion
-The mini project is implemented by some basic technology.It can be better in performance.</br>
+The mini project is implemented by some basic technologies.It can be better in performance.</br>
 Such as the things in Architecture image.e.g:solr, redis...
